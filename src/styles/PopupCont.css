@@ -1,0 +1,24 @@
+.popup-container{
+    position: absolute;
+    left: 40vw;
+    top: 15vw;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    background: white;
+    padding: 0.7vw;
+}
+.popup-content {
+    padding: 20px;
+}    
+
+.popup-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.sec-options{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1vw;
+}

@@ -1,0 +1,147 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 10px;
+    /* border: 1px solid yellow; */
+}
+
+.mainsec-container {
+    display: flex;
+    /* justify-content: center; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+}
+
+.mainsec-container .left-container {
+    flex-basis: 20%;
+    /* right:0px; */
+    padding: 1vw;
+    width: 20vw;
+    margin-top: 1vw;
+    /* background-color: white; */
+}
+
+.mainsec-container .mid-container {
+    flex-basis: 40%;
+    padding: 1vw;
+}
+
+.mainsec-container .right-container {
+    flex-basis: 40%;
+    /* padding: 1vw; */
+    /* width: 506p; */
+    margin-top: 1vw;
+    /* background-color: white; */
+}
+
+.mainsec-container .mid-container .header {
+    margin-top: 1vw;
+    padding: 1vw;
+    background-color: white;
+}
+
+.mainsec-container .mid-container .header .profile-addpost {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1vw;
+}
+
+.mainsec-container .mid-container .header .profile-addpost span {
+    font-size: 34px;
+}
+
+.mainsec-container .mid-container .header .profile-addpost input {
+    padding: 0.4vw;
+    border-radius: 1000px;
+    border: 1px solid #c7c6c6;
+    width: 27vw;
+    background-color: #F7F7F8;
+    outline: none;
+}
+
+
+.mainsec-container .mid-container .header .threebuttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.mainsec-container .mid-container .header .threebuttons button {
+    background-color: white;
+    border: none;
+}
+
+.mainsec-container .mid-container .post1 {
+    /* display: flex; */
+    /* align-items: center; */
+    margin-top: 1.5vw;
+    padding: 1vw;
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 1vw;
+    /* height: 1%; */
+    /* height: 90vh; */
+}
+
+.mainsec-container .mid-container .post1 .profile-name {
+    display: flex;
+    align-items: center;
+}
+
+.mainsec-container .mid-container .post1 .profile-name span {
+    font-size: 34px;
+    margin-right: 10px;
+}
+
+.mainsec-container .mid-container .post1 .profile-name .name-para h3 {
+    margin: 0;
+    font-size: 1.3vw;
+    font-weight: 600;
+}
+
+.mainsec-container .mid-container .post1 .profile-name .name-para p {
+    margin: 0;
+    font-size: 0.8vw;
+}
+
+.mainsec-container .mid-container .post1 img {
+    margin-top: 1vw;
+    width: 100%;
+    /* height: 100%; */
+    height: 70vh;
+}
+
+.mainsec-container .mid-container .post1 .threebuttons {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    /* margin-top: 1vw; */
+}
+
+.mainsec-container .mid-container .post1 .threebuttons button {
+    background-color: white;
+    /* margin-left: 1vw; */
+    margin-right: 1vw;
+    border: none;
+}
+
+.footer-postsection {
+    margin-top: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-postsection span {
+    margin-top: 0vw;
+}
+
+.insider-rightcontainer{
+    background-color: white;
+    margin-top: 1vw;
+    padding: 1vw;
+}
